@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./pngtree-3d-render-of-illuminated-basketball-stadium-court-with-field-lights-picture-image_6296984.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  grid-template-rows: repeat(7, 300px) 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#Cteam  {
+  grid-column: span 4;
+}
+
+.Cteam {
+  width: 1400px;
+}
+
+#Chistory {
+}
+
+#Ctrophy {
+  grid-column: span 2;
+}
+
+#Ccoach {
+}
+
+#Cplayer {
+  grid-column: span 4;
+}
+
+#Clogo {
+}
+
+.score1 {
+}
+
+.score2 {
+}
+
+#Mlogo {
+}
+
+#Mplayer {
+  grid-column: span 4;
+}
+
+#Mhistory {
+}
+
+#Mtrophy {
+  grid-column: span 2;
+}
+
+#Mcoach {
+}
+
+#Mteam {
+  grid-column: span 4;
+}
+
+.Mteam {
+  width: 1400px;
+}
+
+img {
+  height: 300px;
+  width: 350px;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  text-align: center;
+  grid-column: span 4;
+}
+
+
+
+
+
+/*@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    
+  }
+}
+
+@media (min-width: 1601px) {
+  body {
+    
+  }
+}*/
